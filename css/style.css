@@ -1,3 +1,24 @@
+.bg {
+    background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)), url('../img/background.jpg'), no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -mox-background-size:cover;
+    -o-background-size:cover;
+    -background-size:cover;
+    display:block;
+    background-size:cover !important;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    color:white !important!;
+    clear:both;
+    height: 100%;
+    bottom:0;
+
+    /*alignment*/
+    position:relative;width:100%;
+    text-align:center
+}
+
+
 body,html {
     height: 100%;
     width: 100%
