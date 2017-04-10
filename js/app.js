@@ -24,7 +24,6 @@ createNew.addEventListener("click", function() {
 		// GET THE OBJECTS
 		let documentButtons = document.getElementsByClassName('game-button');
 		let winText = document.getElementById('winText');
-		// let reloadButton = document.getElementById('reloadButton');
 		winText.style.visibility='hidden' 
 		let counter = documentButtons.length;
 		console.log(documentButtons.length)

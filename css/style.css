@@ -12,140 +12,33 @@
     clear:both;
     height: 100%;
     bottom:0;
-
-    /*alignment*/
     position:relative;width:100%;
     text-align:center
 }
-
 
 body,html {
     height: 100%;
     width: 100%
 }
 
-.btn{
-    font-family: 'Montserrat', sans-serif;
-}
-
-.btn-default {
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s
-}
-
-.btn-default.active,
-.btn-default:active,
-.btn-primary.active,
-.btn-primary:active,
-.open>.dropdown-toggle.btn-default,
-.open>.dropdown-toggle.btn-primary {
-    background-image: none
-}
-
-.btn-default {
-    color: #222;
-    background-color: #fff;
-    border-color: #fff;
-    transition: all .35s
-}
-
-.btn-default.active,
-.btn-default.focus,
-.btn-default:active,
-.btn-default:focus,
-.btn-default:hover,
-.open>.dropdown-toggle.btn-default {
-    color: #222;
-    background-color: #f2f2f2;
-    border-color: #ededed
-}
-
-.btn-default.disabled,
-.btn-default.disabled.active,
-.btn-default.disabled.focus,
-.btn-default.disabled:active,
-.btn-default.disabled:focus,
-.btn-default.disabled:hover,
-.btn-default[disabled],
-.btn-default[disabled].active,
-.btn-default[disabled].focus,
-.btn-default[disabled]:active,
-.btn-default[disabled]:focus,
-.btn-default[disabled]:hover,
-fieldset[disabled] .btn-default,
-fieldset[disabled] .btn-default.active,
-fieldset[disabled] .btn-default.focus,
-fieldset[disabled] .btn-default:active,
-fieldset[disabled] .btn-default:focus,
-fieldset[disabled] .btn-default:hover {
-    background-color: #fff;
-    border-color: #fff
-}
-
-.btn-default {
-    color: #fff;
-    background-color: #222
+.btn {
+    border: none;
+    border-radius: 300px;
+    font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
 }
 
 .btn-primary {
-    color: green;
-    background-color: white;
-    border-color: #49A154;
+    color: #16538b;
+    background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s
 }
 
-.btn-primary.active,
-.btn-primary.focus,
-.btn-primary:active,
-.btn-primary:focus,
-.btn-primary:hover,
-.open>.dropdown-toggle.btn-primary {
-    color: white;
-    background-color: #49A154;
-    border-color: #ed431f
-}
-
-.btn-primary.disabled,
-.btn-primary.disabled.active,
-.btn-primary.disabled.focus,
-.btn-primary.disabled:active,
-.btn-primary.disabled:focus,
-.btn-primary.disabled:hover,
-.btn-primary[disabled],
-.btn-primary[disabled].active,
-.btn-primary[disabled].focus,
-.btn-primary[disabled]:active,
-.btn-primary[disabled]:focus,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary,
-fieldset[disabled] .btn-primary.active,
-fieldset[disabled] .btn-primary.focus,
-fieldset[disabled] .btn-primary:active,
-fieldset[disabled] .btn-primary:focus,
-fieldset[disabled] .btn-primary:hover {
-    background-color: #35723D;
-    border-color: #49A154
-}
-
-.btn-primary {
-    color: #35723D;
-    background-color: #fff
-}
-
-.btn {
-    border: none;
-    border-radius: 300px;
-    font-weight: 700;
-}
-
 .btn-xl{
     padding:20px 30px
 }
-
-
-
 
 .fadeInText {
     margin-top: 25px;
@@ -153,9 +46,9 @@ fieldset[disabled] .btn-primary:hover {
     color:white;
     text-align: center;
     animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
 }
 @keyframes fadein {
     from {
@@ -165,7 +58,7 @@ fieldset[disabled] .btn-primary:hover {
         opacity:1;
     }
 }
-@-moz-keyframes fadein { /* Firefox */
+@-moz-keyframes fadein {
     from {
         opacity:0;
     }
@@ -173,7 +66,7 @@ fieldset[disabled] .btn-primary:hover {
         opacity:1;
     }
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
+@-webkit-keyframes fadein {
     from {
         opacity:0;
     }
@@ -181,7 +74,7 @@ fieldset[disabled] .btn-primary:hover {
         opacity:1;
     }
 }
-@-o-keyframes fadein { /* Opera */
+@-o-keyframes fadein {
     from {
         opacity:0;
     }
